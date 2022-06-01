@@ -1,2 +1,2 @@
-# gachon_webprogrammin_7
+# gachon_webprogramming_7
 Gachon University Web Programming Team7
