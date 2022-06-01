@@ -1,0 +1,81 @@
+.container {
+    width: full; 
+    text-align: center;
+}
+a {
+    color: inherit;   
+}
+
+#scrollTopPc {
+    background-color: white;
+    position: fixed;
+    bottom: 34px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 99;
+    border: solid;
+    border-width: 3px;
+    border-radius: 70%;
+    padding: 5px 5px 5px 5px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#title {
+    background-color: olivedrab;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#car {
+    width: full;
+}
+#car:hover {
+    transform: translateX(300px);
+}
+
+.list {
+    border: solid;
+    border-width: 3px;
+    border-color: blanchedalmond;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.list_val {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list_val:hover {
+    background: Khaki;
+}
+.list a {
+    text-decoration: none;
+}
+
+.box {
+    margin-bottom: 100px;
+}
+.box h2 {
+    background-color: darkseagreen;
+}
+
+.sw {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#forth {
+    text-align: center;
+}
+
+.last {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}

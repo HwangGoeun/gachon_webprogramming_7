@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>202234891_team</title>
+	<link href="css/parkstyle.css" type="text/css" rel="stylesheet"/>
+	<style>
+		#left{
+			opacity: 0.3;
+			width: 50px;
+			position: fixed;
+			top: 50%;
+		}
+		#right{
+			opacity: 0.3;
+			width: 50px;
+			position: fixed;
+			top: 50%;
+			right: 0px;
+		}
+		#left:hover{
+			opacity: 1;
+			border: 3px solid blue;
+		}
+		#right:hover{
+			opacity: 1;
+			border: 3px solid blue;
+		}
+	</style>
+	<script>
+		function lastPage(){
+			location.href = "hwang.html";
+		}
+		function nextPage(){
+			location.href = "cho.html";
+		}
+	</script>
+  </head>
+  
+  
+  <body>
+  <div class="wrap">
+  <div id="no"></div>
+  <div id="first">
+	<div id="h"><h1>DB Conquering</h1></div>
+	
+	<div id="nav">
+	<div class="list_1">
+	<b>DATA BASE</b><br/>
+	<a href="#db">DB</a>
+	<a href="#dbms">DBMS</a>
+	<a href="#sql"> SQL</a>
+	</div>
+	<div >
+	<b class="list_2">How to Study</b><br/>
+	<a class="list_2" href="#book"> book</a>
+	<a  href="#link">links</a>
+	</div>
+	</div>
+	</div>
+	
+	<h2 class="db" id="db">DB</h2>
+	<img id="dbi" src="img/db.png" width="600px" height="400px"/>
+	<p class="db">
+		A database is an organized collection of structured information or data that is typically stored electronically on a computer system. Databases are typically controlled by the Database Management System (DBMS).
+		Data and DBMS together with connected applications are called database systems and abbreviated databases.<br/><br/>
+
+		In the most common types of databases operating today, data is typically modeled as rows and columns in a series of tables to efficiently process and query data.
+		This makes it easy to access, manage, modify, update, control, and configure your data. Most databases use a Structured Query Language (SQL) for data creation and queries.
+	</p>
+	<hr/>
+	
+	<h2 class="dbms" id="dbms">DBMS</h2>
+	<p class="dbms">Database software is used to create, edit, and maintain database files and records, making it easier to create files and records, enter data, edit data, update, and report.
+		The software also handles data storage, backup, reporting, multiple access control, and security. Strong database security is especially important today as data crimes become more frequent. The database software is not available
+		Also known as the "Database Management System" (DBMS).<br/><br/>
+
+		Database software simplifies data management by allowing users to store and then access data in a structured form. Typically, you create and manage data
+		There is a helpful graphical interface, and in some cases, users use the database software to configure the database.<br/><br/>
+
+		The database requires a comprehensive database software program, commonly known as the Database Management System (DBMS). DBMS is a database and final
+		It acts as an interface between users or programs, allowing users to discover, update, and manage how information is organized and optimized. DBMS also provides a database supervision and
+		Easy control enables a variety of management tasks such as performance monitoring, tuning, backup, and recovery.<br/><br/>
+
+		Popular database software or DBMSs include MySQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle databases, and dBASE.<p>
+	<img class="dbms" src="img/dbms.png" width="40%"/>
+	<p class="dbms">For a close example, many people have bank accounts. The database is a collection of deposit account information of several people.
+		The bank's deposit account database can be accessed by multiple people at the same time. It is accessible from deposit account owners, bank employees, Internet banking, and ATM devices.
+		This is possible because there is a DBMS.<br/></p>
+	
+	<h5 class="dbms">Types of DBMS</h5>
+	<table class="dbms">
+	<tr>
+		<th>DBMS</th>
+		<th>a production company</th>
+		<th>Operating System</th>
+		<th>Other Information</th>
+	</tr>
+	<tr>
+		<td>MySQL</td>
+		<td>Oracle</td>
+		<td>Unix, Linux, Windows, Mac</td>
+		<td>Open Source (Free), Commercial</td>
+	</tr>
+	<tr>
+		<td>MariaDB</td>
+		<td>MariaDB</td>
+		<td>Unix, Linux, Windows</td>
+		<td>Open Source (Free)<br/>Created independently by early MySQL developers</td>
+	</tr>
+	<tr>
+		<td>PostgreSQL</td>
+		<td>PostgreSQL</td>
+		<td>Unix, Linux, Windows, Mac</td>
+		<td>Open Source (Free)</td>
+	</tr>
+	<tr>
+		<td>Oracle</td>
+		<td>Oracle</td>
+		<td>Unix, Linux, Windows</td>
+		<td>No.1 Commercial Market Share</td>
+	</tr>
+	<tr>
+		<td>SQL Server</td>
+		<td>Microsoft</td>
+		<td>Windows</td>
+		<td>Mainly used in medium/large markets</td>
+	</tr>
+	<tr>
+		<td>DB2</td>
+		<td>IBM</td>
+		<td>Unix, Linux, Windows</td>
+		<td>No.1 in mainframe market share</td>
+	</tr>
+	<tr>
+		<td>Access</td>
+		<td>Microsoft</td>
+		<td>Windows</td>
+		<td>For the PC</td>
+	</tr>
+	<tr>
+		<td>SQLite</td>
+		<td>SQLite</td>
+		<td>Android, iOS</td>
+		<td>Mobile only, open source (free)</td>
+	</tr>
+	</table>
+	<p class="dbms"><<Going to Download Popular DBMS>><p>
+	<a href="https://www.mysql.com/" target="_blank"><img src="img/mysql.png"/></a>
+	<a  href="https://www.oracle.com/kr/index.html" target="_blank"><img src="img/oracle.png"/></a>
+	<a  href="https://mariadb.org/" target="_blank"><img src="img/maria.png"/></a>
+	<hr/>
+	
+	<h2 class="sql" id="sql">SQL</h2>
+	<p class="sql">
+		Structured Query Language (SQL) is the language used in relational databases, read as 'SQL' or 'Sequal'.
+		To learn MySQL during relational DBMS, you must learn SQL. Although SQL is the 'language' that manipulates databases, it has a slightly different characteristic from the common programming languages (C, Java, Python, etc.).<br/><br/>
+		SQL is not made by a specific company, but the International Organization for Standardization sets and publishes standards for SQL. This is called standard SQL.
+		The problem is that standard SQL does not embrace all the characteristics of each company's products because there are many companies that make DBMS that use SQL.
+		Therefore, the company that makes DBMS complies with standard SQL as much as possible, but uses SQL that reflects the characteristics of each product.</p>
+	
+	<h5 class="sql">Data Definition Language (Data Definition Language) </h5>
+	<div class="setpre">
+		<div class="content">
+		<button class="check" id="c-1"><span id="c-1-toggle">+</span><span>CREATE</span></button>
+		<div class="answer" id="ans-1"><pre>CREATE TABLE Table_Name(
+		
+			Property name data type,
+		
+		);</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-2"><span id="c-2-toggle">+</span><span>DROP</span></button>
+		<div class="answer" id="ans-2"><pre>DROP DATABASE Database_name;
+		
+DROP TABLE Table_Name;</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-3"><span id="c-3-toggle">+</span><span>ALATER</span></button>
+		<div class="answer" id="ans-3"><pre>ALTER TABLE Table_Name ADD Field_Name Field_Type;
+		
+ALTER TABLE Table_Name DROP Field_Name;
+
+ALTER TABLE Table_Name MODIFY COLUMN Field_Name Field_Type;</pre></div>
+		</div>
+	</div>
+	
+	<div class="setpre">
+	<h5 class="sql">Data Manipulation Language (Data manipulation language) </h5>
+		<div class="content">
+		<button class="check" id="c-4"><span id="c-4-toggle">+</span><span>SELECT</span></button>
+		<div class="answer" id="ans-4"><pre>SELECT Field_Name1, Field_Name2, ...
+		
+FROM Table_Name
+
+WHERE Field_Name1=Field_Value1, Field_Name2=Field_Value2;</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-5"><span id="c-5-toggle">+</span><span>INSERT</span></button>
+		<div class="answer" id="ans-5"><pre>INSERT INTO Table_Name(Field_Name1, Field_Name2, Field_Name3, ...)
+		
+VALUES (Field_Value1, Field_Value2, Field_Value3, ...), (Field_Value1, Field_Value2, Field_Value3), ...;</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-6"><span id="c-6-toggle">+</span><span>UPDATE</span></button>
+		<div class="answer" id="ans-6"><pre>UPDATE Table_Name
+		
+SET Field_Name1=Field_Value1, Field_Name2=Field_Value2, ...
+
+WHERE Field_Name1=Field_Value1, Field_Name2=Field_Value2, ...;</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-7"><span id="c-7-toggle">+</span><span>DELETE</span></button>
+		<div class="answer" id="ans-7"><pre>DELETE FROM Table_Name
+		
+WHERE Field_Name1=Field_Value1, Field_Name2=Field_Value2, ...;</pre></div>
+		</div>
+	</div>
+	
+	<div class="setpre">	
+	<h5 class="sql">Data Control Language (Data Control Language) </h5>
+		<div class="content">
+		<button class="check" id="c-8"><span id="c-8-toggle">+</span><span>GRANT</span></button>
+		<div class="answer" id="ans-8"><pre>GRANT System Privilege Name [, System Privilege Name ... | Role_Name]
+
+TO User_Name [, User_Name... | Role_Name ... |PUBLIC | ​[WITH ADMIN OPTION];</pre></div>
+		</div>
+		<div class="content">
+		<button class="check" id="c-9"><span id="c-9-toggle">+</span><span>REVOKE</span></button>
+		<div class="answer" id="ans-9"><pre>REVOKE { Authority_Name [, Authority_Name...] ALL}
+
+ON Object_Name
+
+FROM {User_Name [, User_Name...] | Role_Name(ROLE) | PUBLIC} 
+
+[CASCADE CONSTRAINTS]</pre></div>
+		</div>
+	</div>
+
+	<script>
+	const items = document.querySelectorAll('.check');
+
+	function openCloseAnswer() {
+		const answerId = this.id.replace('c', 'ans');
+
+		if(document.getElementById(answerId).style.display === 'block') {
+		document.getElementById(answerId).style.display = 'none';
+		document.getElementById(this.id + '-toggle').textContent = '+';
+		} 
+		else {
+		document.getElementById(answerId).style.display = 'block';
+		document.getElementById(this.id + '-toggle').textContent = '-';
+		}
+	}
+
+	items.forEach(item => item.addEventListener('click', openCloseAnswer));
+	</script>
+	
+	<hr/>
+	<h2 class="study">STUDY</h2>
+	<h5 class="study" id="book">STUDY_BOOK</h5>	
+	<div class="book">
+	<a class="book" href="https://coupa.ng/b5BQ9u" target="_blank"><img src="img/1.png" width="270px" height="350px"/></a>
+	<a class="book" href="https://coupa.ng/b5BQvC" target="_blank"><img src="img/2.png" width="270px" height="350px"/></a>
+	<a class="book" href="https://coupa.ng/b5BQ4i" target="_blank"><img src="img/3.png" width="270px" height="350px"/></a>
+	<a class="book" href="https://coupa.ng/b5BReK" target="_blank"><img src="img/4.png" width="270px" height="350px"/></a></div>
+	<h5 class="study" id="book">STUDY_LINKS</h5>
+	<p class="study" id="link">reference sites for first-time students</p>
+	<ul class="study">
+		<li><a href="https://www.codecademy.com" target="_blank">Code Academy</a></li>
+		<li><a href="https://opentutorials.org/course/1688" target="_blank">Living Coding: Creating Web Applications</a></li>
+	</ul>
+	
+	<footer>
+		<p class="fp">202234891<br/>Park Seoyeon</p>
+	</footer>
+	</div>
+	<img src="img/circle-left-solid.svg" id="left" alt="" onclick="lastPage()">
+	<img src="img/circle-arrow-right-solid.svg" id="right" alt="" onclick="nextPage()">
+  </body>
+</html>

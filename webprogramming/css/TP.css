@@ -1,0 +1,19 @@
+	#header {
+		padding: 80px;
+		text-align: center;
+		background-color: #F3F781;
+		color: black;
+	}
+	#navbar {
+		background-color: black;
+		margin: 0;
+	}
+	#navbar a {
+		color: white;
+		padding: 20px 20px;
+		text-align: center;
+		text-decoration: none;
+	}
+	#navbar a:hover {
+		color: yellow;
+	}

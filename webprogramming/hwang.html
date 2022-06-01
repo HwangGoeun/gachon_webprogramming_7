@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autonomous Driving</title>
+        <link rel="stylesheet" href="css/hwangcss.css">
+        <style>
+            #left{
+              opacity: 0.3;
+              width: 50px;
+              position: fixed;
+              top: 50%;
+              left: 10px;
+            }
+            #right{
+              opacity: 0.3;
+              width: 50px;
+              position: fixed;
+              top: 50%;
+              right: 10px;
+            }
+            #left:hover{
+              opacity: 1;
+              border: 3px solid blue;
+            }
+            #right:hover{
+              opacity: 1;
+              border: 3px solid blue;
+            }
+          </style>
+          <script>
+            function lastPage(){
+              location.href = "index.html";
+            }
+            function nextPage(){
+              location.href = "park.html";
+            }
+          </script>
+    </head>
+    <body>
+        <div id="scrollTopPc">
+            <a href=#><img src="img/top.png" width="30px" height="30px"></a>
+        </div>
+        <div class="container">
+            <div id="title"><h1>Autonomous driving</h1></div>
+            <a href="https://blog.naver.com/hwang_gim" target="_blank"><div id="car" style="text-align: center;"><img src="img/car.png" height="500px"></div></a>
+            <p>Click the car :)</p>
+            <br>
+            <br>
+            <div class="list">
+                <div class="list_val"><a href=#first>What is Autonomous driving?</a><br></div>
+                <div class="list_val"><a href=#second>Software related to autonomous driving</a><br></div>
+                <div class="list_val"><a href=#third>References</a><br></div>
+                <div class="list_val"><a href=#forth>Desired occupation</a><br></div>
+            </div>
+            <div class="box">
+                <div id="first">
+                    <h2>What is Autonomous driving?</h2>
+                    <img src="img/auto.jpg" height="500px"><br>
+                    <figcaption>※ SAE (classification by classification of the American Society of Automotive Engineers)</figcaption>
+                    <br>
+                    <br>
+                    <p>This refers to a car that can be driven by itself without the operation of the driver or passengers.</p>
+                    <p>Autonomous driving cars can be classified from level 0 to 5 according to the classification of automation stages, and level 3 is viewed as autonomous driving cars.</p>
+                </div>    
+            </div>
+            <div class="box">
+                <div id="second">
+                    <h2>Software related to autonomous driving</h2>
+                    <div class="sw">                    
+                        <a href=#ros><img src="img/ros.png" height="50px"></a>
+                        <h3>ROS : Robot Operating System</h3>
+                        <p>The Robot Operating System (ROS) is a set of software libraries and tools that help you build robotic applications.<br>It has everything you need for robotics projects, and it's open source.</p>
+                    </div>
+                    <div class="sw">
+                        <a href=#cpp><img src="img/cpp.png" height="100px"></a>
+                        <h3>C++</h3>
+                        <p>It is a C language-based programming language, which is necessary for ROS programming.</p>
+                    </div>
+                    <div class="sw">
+                        <a href=#python><img src="img/python.png" height="100px"></a>
+                        <h3>Python</h3>
+                        <p>Dynamic typing universal programming language, required for ROS programming, like C++.</p>
+                    </div>
+                    <div class="sw">
+                        <a href=#linux><img src="img/linux.png" height="100px"></a>
+                        <h3>Linux</h3>
+                        <p>Because ROS software works primarily in Linux environments, Linux knowledge is required.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div id="third">
+                    <h2>References</h2>
+                    <div class="sw">
+                        <div id="ros">
+                            <p>ROS</p>
+                            <p><a href="https://www.ros.org/" target="_blank"><b>ROS official site</b></a><br></p>
+                            <p><a href="https://wiki.ros.org/" target="_blank"><b>ROS wiki</b> : ROS1 Tutorial and other recording sites with descriptions of ROS1</a><br></p>
+                            <p><a href="http://docs.ros.org/" target="_blank"><b>ROS Documentation</b> : A recording site with descriptions of ROS1 and ROS2</a></div></p>
+                        </div>
+                    </div>
+                    <div class="sw">
+                        <div id="cpp">
+                            <p>C++</p>
+                            <p><a href="https://isocpp.org/" target="_blank"><b>C++ official site</b></a></p>
+                        </div>
+                    </div>
+                    <div class="sw">
+                        <div id="python">
+                            <p>Python</p>
+                            <p><a href="https://www.python.org/" target="_blank"><b>Python official site</b></a></p>
+                        </div>
+                    </div>
+                    <div class="sw">
+                        <div id="linux">
+                            <p>Linux : OS delivery site where you can upload ROS software</p>
+                            <p><a href="https://ubuntu.com/" target="_blank"><b>Ubuntu official site</b></a></p>
+                            <p><a href="https://linuxmint.com" target="_blank"><b>Linux Mint official site</b></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div id="forth">
+                    <h2>Desired occupation</h2>  
+                    <video src="video/dilly.mp4" controls height="400px">dilly.mp4</video>
+                    <p>I want to be a person who develops autonomous driving unmanned delivery robots!</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="last">
+            <p>Managed by HwangGoeun</p>
+        </div>
+        <img src="img/circle-left-solid.svg" id="left" alt="" onclick="lastPage()">
+        <img src="img/circle-arrow-right-solid.svg" id="right" alt="" onclick="nextPage()">
+    </body>
+</html>

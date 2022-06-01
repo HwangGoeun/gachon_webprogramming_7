@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset = "utf-8">
+    <meta name = "author" content = "Cho YoonSung">
+	<link rel = "stylesheet" type= "text/css" href = "css/TP.css">
+	<title></title>
+	<style>
+		#left{
+			opacity: 0.3;
+			width: 50px;
+			position: fixed;
+			top: 50%;
+		}
+		#left:hover{
+			opacity: 1;
+			border: 3px solid blue;
+		}
+	</style>
+	<script>
+		function lastPage(){
+			location.href = "park.html";
+		}
+	</script>
+  </head>
+  <body>
+	<div id = "header">
+	   <h1 id = "home">Blockchain</h1>
+	</div>
+	<div id = "navbar">
+		<a href = "home">HOME</a>
+		<a href = "main">ABOUT BLOCKCHAIN</a>
+	</div>
+	<div id = "main">
+		<p><h2>What is the blockchain?</h2></p>
+		<img src = "img/blockchain.jpg" width ="800" height = "500">
+		<p>Advanced database mechanisms that enable transparent sharing of information within a business network with data forgery prevention technology based on distributed computing technology.</p>
+		<p><h2>How it is used in various industries?</h2></p>
+		
+		<p><h3>Energy</h3></p>
+		<p>Energy companies use blockchain technology to create P2P energy trading platforms and simplify access to renewable energy.<br>For example, it can be used like this.</p>
+		<ul>
+		  <li><p>Blockchain-based energy companies have created a trading platform for selling electricity between individuals. If you own a solar panel, you'll be able to use this platform<br>
+				Use to sell excess solar energy to neighbors. Most processes are automated. The smart meter generates transactions and the blockchain records them.</p></li>
+		  <li><p>Blockchain-based crowdfunding initiatives enable users to sponsor solar panels to communities that lack access to energy<br>You can own it. Sponsors may also receive rent from their communities once solar panels are built.</p></li>
+		</ul>
+		
+		<p><h3>finance</h3></p>
+        <p>Traditional financial systems, such as banks and stock exchanges, use blockchain services to manage online payments, accounts, and market transactions.<br>For example, Singapore Exchange Limited, an investment holding company that provides financial transaction services across Asia, uses blockchain technology to create more efficient interbank payment accounts. Blockchain has been introduced to address a number of issues, including batch processing and manual reconciliation of thousands of financial transactions.</p>
+		
+        <p><h3>Media and entertainment</h3></p>
+        <p>Media and entertainment companies use blockchain systems to manage copyright data. To compensate the artist fairly,<br>Copyright verification is important. Multiple transactions are required to record the sale or transfer of copyright content. Sony Music Entertainment Japan uses the <br>blockchain service to manage digital copyrights more efficiently. To increase productivity and reduce copyright processing costs,<br>You have successfully used a blockchain strategy.</p>
+		
+		<p><h3>Programming language used in development</h3></p>
+		<ol>
+		 <li><p>C++</p></li>
+			<ul>
+			  <li>Bitcoin</li>
+			  <li>Ethereum</li>
+			  <li>Ripple</li>
+			  <li>Dodgcoin</li>
+			</ul>
+		 <li><p>Solidity</p></li>
+		    <ul>
+			  <li>Ethereum</li>
+			  <li>Ethereum classic</li>
+			  <li>Tron</li>
+			</ul>
+		 <li><p>Java</p></li>
+		    <ul>
+			  <li>NEM</li>
+			  <li>IBM blockchain</li>
+			  <li>Ethereum</li>
+			  <li>BitcoinJ</li>
+			</ul>
+		</ol>
+		<p>In addition, Python, C#, and SQL are used.</p>
+	</div>
+	<img src="img/circle-left-solid.svg" id="left" alt="" onclick="lastPage()">
+  </body>
+</html>

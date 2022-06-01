@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block-Chain</title>
+  <link rel="stylesheet" href="css/seoncss.css">
+  <link rel="stylesheet" href="css/seonbtn.css">
+
+  <!-- moving btn -->
+  <style>
+    #right{
+      opacity: 0.3;
+      width: 50px;
+      position: fixed;
+      top: 50%;
+      right: 0px;
+    }
+    #right:hover{
+      opacity: 1;
+      border: 3px solid blue;
+    }
+  </style>
+  <script>
+    function nextPage(){
+      location.href = "hwang.html";
+    }
+  </script>
+  
+</head>
+<body>
+  <div id="header">
+    <h1>Block Chain</h1>
+  </div>
+
+
+  <div id="nav">
+    <a href="#intro">INTRODUCE</a>
+    <a href="#dev">DEVELOPE</a>
+    <a href="#tok">TOKEN</a>
+    <a href="#nft">NFT</a>
+  </div>
+
+
+  <h2 id="intro">INTRODUCE</h2>
+  <div id="introduce">
+    <img src="img/blockchain1.jpg" alt="" width="300px">
+    <p>Blockchain is an algorithm that combines multiple transaction details to form a block, connects several blocks like a chain using a hash, and then copies and stores them.
+    <br>
+    Blockchain is a key technology used in cryptocurrency such as Bitcoin and Ethereum. Even if there are no third-party intermediaries such as banks, anyone can make reliable and safe transactions using blockchain technology. Blockchain can be used not only for cryptocurrency, but also for processing all data that has online transactions and requires history management. Blockchain-based smart contracts, logistics management systems, document management systems, medical information management systems, copyright management systems, social media management systems, game item management systems, electronic voting systems, and identification systems are available.</p>
+    <p>Blockchain is very broad and other concepts (software architecture, encryption, etc.) are also extensive, so please visit the site for more information!</p>
+    <button class="btn"><a href="https://bitcoin.org/ko/" target="_blank">Bitcoin</a></button>
+  </div>
+
+
+  <br>
+
+
+  <h2 id="dev">DEVELOPE</h2>
+  <div id="develope">
+    <P>Blockchain can be developed in various languages.</P>
+    <P>However, one of the important technologies of blockchain, Smart Contract, can be developed with Solidity. Solidity is a contract-oriented programming language used for smart contract creation and implementation on blockchain platforms such as Ethereum. Solidity was developed by key Ethereum contributors to create smart contracts on blockchain platforms such as Ethereum. Developers can implement their own business logic in smart contracts through solidity. Various apps can be implemented through solidity, but due to the nature of the blockchain, smart contracts cannot be modified once they are on the blockchain, and anyone can check them, so they should be carefully written.</P>
+    <p>This is a list of sites that are helpful when studying blockchain development.</p>
+    <ul>
+      <li><a href="https://cryptozombies.io/ko/ " target="_blank">Crypto Zombie</a></li>
+      <li><a href="https://docs.microsoft.com/ko-kr/learn/paths/ethereum-blockchain-development/" target="_blank">Microsoft Build</a></li>
+      <li><a href="https://solidity-kr.readthedocs.io/ko/latest/" target="_blank">Solidity Document</a></li>
+    </ul>
+  </div>
+
+
+  <br>
+
+
+  <h2 id="tok">TOKEN(COIN)</h2>
+  <div id="token">
+    <p>Cryptocurrency is often used in combination with the term virtual currency, but it is technically a distinct concept. Cryptocurrency is a currency created using encryption technology, and cryptocurrency is a currency that exists virtually without real things. For example, Bitcoin, Ethereum, EOS, etc. are cryptocurrencies, and Cyworld acorns, Lineage Aden, etc. are cryptocurrencies. Cryptocurrency is a type of cryptocurrency created using encryption technology. After all, cryptocurrency is a type of cryptocurrency.
+      Unlike legal currencies such as dollars and won, cryptocurrencies are distributed and stored in P2P on Internet networks around the world without central banks that issue currencies. The key technology for issuing and managing cryptocurrency is blockchain technology.</p>
+    <p>There are many kinds of cryptocurrency and there are many interesting cryptocurrencies. If you want to know more information about cryptocurrency, please go to Hashnet and refer to it!</p>
+    <button class="btn"><a href="http://www.hash.kr/" target="_blank">Hashnet</a></button>
+  </div>
+
+
+  <br>
+
+
+  <h2 id="nft">NFT(Non-Fungible Token)</h2>
+  <div id="token">
+    <p>Non-fungible tokens (NFTs) are cryptocurrencies that cannot replace one token with another. It is abbreviated in English and is called NFT. It is similar to Cryptokitty, a blockchain cat game. In the Cryptokitty game, each cat has its own unique characteristics, making it impossible to replace it with another cat. The ERC-721 token is the implementation of an irreplaceable token on the Ethereum network. ERC-20, on the other hand, is an alternative token. For example, one Ethereum can be replaced by another Ethereum. The element that distinguishes between possible and impossible substitution depends on whether each has its own information or characteristics.</p>
+    <p>Watch the various NFTs on Open Sea, a representative site!</p>
+    <button class="btn"><a href="https://opensea.io/" target="_blank">Open Sea</a></button>
+  </div>
+
+  
+  <br>
+  <hr>
+
+  <div id="footer">
+    <span>Made by. Seon Juno</span>
+    <br>
+    <span>2022.05.25</span>
+  </div>
+
+  <div id="topbtn">
+    <a href="#top"><img src="img/angle-up-solid.svg" alt=""></a>
+  </div>
+
+  <img src="img/circle-arrow-right-solid.svg" id="right" alt="" onclick="nextPage()">
+</body>
+</html>
